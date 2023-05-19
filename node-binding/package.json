@@ -1,0 +1,28 @@
+{
+    "name": "@johuang/phe-node",
+    "version": "0.0.4",
+    "description": "PH Evaluator node.js bindings",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "files":[
+        "yarn.lock",
+        "binding.gyp",
+        "cpp/include/**/*",
+        "cpp/src/**/*",
+        "index.cc",
+        "index.js",
+        "index.d.ts"
+    ],
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/JoHuang/PokerHandEvaluator",
+    "repository": "https://github.com/JoHuang/PokerHandEvaluator.git",
+    "dependencies": {
+      "bindings": "~1.2.1",
+      "node-addon-api": "^1.0.0"
+    },
+    "scripts": {
+      "test": "node test.js",
+      "preinstall": "if [ -d \"../cpp\" ]; then\n rm -rf cpp && cp -rf ../cpp .\n fi"
+    },
+    "gypfile": true
+  }

@@ -12,6 +12,8 @@
         "cpp/src/evaluator6.c",
         "cpp/src/evaluator7.c",
         "cpp/src/evaluator_omaha.c",
+        "cpp/src/evaluator_omaha.cc",
+        "cpp/src/hand.cc",
         "cpp/src/hash.c",
         "cpp/src/hashtable.c",
         "cpp/src/hashtable5.c",

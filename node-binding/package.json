@@ -1,6 +1,6 @@
 {
   "name": "@johuang/phe-node",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "PH Evaluator node.js bindings",
   "main": "index.js",
   "types": "index.d.ts",
